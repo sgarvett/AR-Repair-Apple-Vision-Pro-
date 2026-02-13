@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-01-23T20:44:15Z",
+        "event" : "projectCreated",
+        "id" : "6E1BECF2-E423-4863-91F9-4B0EE4A8B73A",
+        "subtitle" : "AppleProductsClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Samuel Garvett",
+  "createdDate" : "2026-01-23T20:44:15Z",
+  "description" : "Trains model to identify Apple products.",
+  "id" : "086BEC93-7D14-460B-9FD1-7D28546B33FB",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-01-23T20:44:15Z",
+  "projectName" : "AppleProductsClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}
