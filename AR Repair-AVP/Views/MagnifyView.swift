@@ -6,44 +6,54 @@
 //
 
 import SwiftUI
+import RealityKit
 
 struct MagnifyView: View {
+   
+    @State private var zoom: CGFloat = 1.0
+
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "magnifyingglass")
-                .font(.system(size: 60))
-            
-            Text("Need to see small parts?")
-                .font(.title)
-            
-            Text("Enable Zoom in Settings for magnification")
-                .multilineTextAlignment(.center)
-            
-            Button("Open Accessibility Settings") {
-                if let url = URL(string: "App-prefs:root=ACCESSIBILITY") {
-                    UIApplication.shared.open(url)
-                }
-            }
-            .buttonStyle(.borderedProminent)
-            
-            // Fallback instructions
-            VStack(alignment: .leading, spacing: 10) {
-                Text("To enable Zoom manually:")
-                    .font(.headline)
-                Text("1. Open Settings")
-                Text("2. Go to Accessibility")
-                Text("3. Select Zoom")
-                Text("4. Turn on Zoom")
-                Text("5. Use Digital Crown to adjust zoom level")
-            }
-            .font(.caption)
-            .padding()
-            .background(.ultraThinMaterial)
-            .cornerRadius(12)
+        RealityView { content in
+            let anchor = AnchorEntity(.head)
+            content.add(anchor)
+
+            // Example: a reconstructed mesh or overlay entity
+            let meshEntity = ModelEntity(mesh: .generatePlane(width: 0.3, height: 0.3))
+            meshEntity.position = [0, 0, -0.5]
+            anchor.addChild(meshEntity)
+
+        } update: { content in
+            // Apply zoom to your augmented content
+            let scale = Float(zoom)
+            content.entities.first?.scale = [scale, scale, scale]
         }
-        .padding()
+        .frame(width: 350, height: 250)
+        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .overlay(
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(.white.opacity(0.8), lineWidth: 3)
+        )
+        .gesture(
+            MagnificationGesture()
+                .onChanged { value in
+                    // Clamp zoom between 1.0 and 5.0 while adjusting with pinch
+                    let newZoom = min(max(1.0, zoom * value), 5.0)
+                    zoom = newZoom
+                }
+        )
+        .overlay(alignment: .bottom) {
+            HStack {
+                Image(systemName: "minus.magnifyingglass")
+                Slider(value: $zoom, in: 1.0...5.0)
+                Image(systemName: "plus.magnifyingglass")
+            }
+            .padding(8)
+            .background(.ultraThinMaterial, in: Capsule())
+            .padding()
+        }
     }
 }
+
 
 #Preview {
     MagnifyView()

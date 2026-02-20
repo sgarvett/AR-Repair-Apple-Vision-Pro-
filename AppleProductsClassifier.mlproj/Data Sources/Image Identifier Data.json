@@ -8,6 +8,27 @@
         "id" : "672D1F39-79E2-45B1-AFBD-908023819525",
         "subtitle" : "3 Classes, 14 Items",
         "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-02-18T22:43:05Z",
+        "event" : "dataSourceMetrics",
+        "id" : "8AA7C326-5602-4D72-AE19-C02BAE6C9CB8",
+        "subtitle" : "3 Classes, 14 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-02-18T22:55:39Z",
+        "event" : "dataSourceMetrics",
+        "id" : "2C64E1FB-CFF2-4761-BBF7-C953D37CAB6B",
+        "subtitle" : "3 Classes, 14 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-02-18T23:00:21Z",
+        "event" : "dataSourceMetrics",
+        "id" : "7890146F-4EBC-42DD-ACBE-C5C552E4D376",
+        "subtitle" : "4 Classes, 18 Items",
+        "title" : "Data Summary"
       }
     ],
     "dataSourceTrainingStarted",
@@ -17,6 +38,27 @@
         "event" : "dataSourceTrainingStarted",
         "id" : "D2D6F72A-8228-4CFD-B749-84A95FF01388",
         "subtitle" : "Apple Products",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-02-18T22:43:05Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "3359672C-24BB-438D-8D8E-C2F0385D09AF",
+        "subtitle" : "Apple Products",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-02-18T22:55:39Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "3A54963A-58A7-456D-9BD3-685131758300",
+        "subtitle" : "Apple Products",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-02-18T23:00:21Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "62E1E321-41AE-412E-95A8-2697F112069C",
+        "subtitle" : "AppleProductsClassifier 1",
         "title" : "Used By"
       }
     ],
@@ -34,16 +76,48 @@
   "createdDate" : "2026-01-23T21:12:10Z",
   "dataPathRelativeToProjectURL" : "../Image%20Identifier%20Data/",
   "dataResult" : {
-    "classesCount" : 3,
+    "classesCount" : 4,
     "createdDate" : "2026-01-23T21:12:10Z",
     "dataAnalysis" : {
       "classifierAnalysis" : {
         "details" : [
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/highlights_design_endframe__flnga0hibmeu_large_2x.jpg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0363.jpeg",
+          [
+            "iMac"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery5-202410.jpeg",
+          [
+            "MacBook Pro 16"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery4-202410.jpeg",
+          [
+            "MacBook Pro 16"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0369.jpeg",
           [
             "iPhone 17 Pro"
           ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/plateau__el50ekod2vo2_large_2x.jpg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_white__c7m8tqp08vee_large_2x.jpg",
+          [
+            "iPhone Air"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/loader__frdeabnt0eye_large_2x.jpg",
+          [
+            "iPhone Air"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery1-202410.jpeg",
+          [
+            "MacBook Pro 16"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0370.jpeg",
+          [
+            "iPhone 17 Pro"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0366.jpeg",
+          [
+            "iPhone 17 Pro"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_gold__o4eertu61jue_large_2x.jpg",
           [
             "iPhone Air"
           ],
@@ -51,15 +125,35 @@
           [
             "iPhone Air"
           ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery4-202410.jpeg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery6-202410.jpeg",
           [
-            "MacBook Pro 16\""
+            "MacBook Pro 16"
           ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery2-202410_GEO_US.jpeg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0365.jpeg",
           [
-            "MacBook Pro 16\""
+            "iPhone 17 Pro"
           ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/loader__frdeabnt0eye_large_2x.jpg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery3-202410.jpeg",
+          [
+            "MacBook Pro 16"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0368.jpeg",
+          [
+            "iPhone 17 Pro"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/titanium__foo5831yt2my_large_2x.jpg",
+          [
+            "iPhone Air"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0362.jpeg",
+          [
+            "iMac"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0364.jpeg",
+          [
+            "iPhone 17 Pro"
+          ],
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/plateau__el50ekod2vo2_large_2x.jpg",
           [
             "iPhone Air"
           ],
@@ -67,44 +161,21 @@
           [
             "iPhone Air"
           ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery6-202410.jpeg",
+          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery2-202410_GEO_US.jpeg",
           [
-            "MacBook Pro 16\""
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery5-202410.jpeg",
-          [
-            "MacBook Pro 16\""
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery1-202410.jpeg",
-          [
-            "MacBook Pro 16\""
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016%22/mbp16-spaceblack-gallery3-202410.jpeg",
-          [
-            "MacBook Pro 16\""
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/titanium__foo5831yt2my_large_2x.jpg",
-          [
-            "iPhone Air"
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_gold__o4eertu61jue_large_2x.jpg",
-          [
-            "iPhone Air"
-          ],
-          "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_white__c7m8tqp08vee_large_2x.jpg",
-          [
-            "iPhone Air"
+            "MacBook Pro 16"
           ]
         ],
         "labelStats" : {
-          "MacBook Pro 16\"" : 6,
-          "iPhone 17 Pro" : 1,
+          "MacBook Pro 16" : 6,
+          "iMac" : 2,
+          "iPhone 17 Pro" : 6,
           "iPhone Air" : 7
         }
       },
       "issues" : [
         {
-          "description" : "3 classes found, including iPhone Air, MacBook Pro 16\", iPhone 17 Pro",
+          "description" : "4 classes found, including iPhone Air, MacBook Pro 16, iPhone 17 Pro",
           "severity" : "debug"
         },
         {
@@ -112,7 +183,7 @@
           "severity" : "warning"
         },
         {
-          "description" : "Smallest class is \"iPhone 17 Pro\" with 1 images",
+          "description" : "Smallest class is \"iMac\" with 2 images",
           "severity" : "debug"
         },
         {
@@ -127,20 +198,20 @@
       },
       "summary" : {
         "canUseValidation" : 0,
-        "classCount" : 3,
-        "sampleCount" : 14
+        "classCount" : 4,
+        "sampleCount" : 21
       }
     },
     "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
     "dataURL" : "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/",
-    "itemsCount" : 14
+    "itemsCount" : 21
   },
   "dataURL" : "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/",
   "experimentIDs" : [
-    "737EE21B-7391-4A77-BE7E-03889BF88EC7"
+    "614FB884-76D3-4BFA-ACF6-494A65B3E9CF"
   ],
   "id" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
-  "modifiedDate" : "2026-02-09T22:31:15Z",
+  "modifiedDate" : "2026-02-19T21:43:38Z",
   "pathType" : 0,
   "preferredFilename" : "Image Identifier Data",
   "title" : "Image Identifier Data",

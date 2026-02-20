@@ -36,6 +36,7 @@ struct NavigationMenu: View {
                     .padding()
                     .glassBackgroundEffect()
             }
+            
                       
         }
         .padding()

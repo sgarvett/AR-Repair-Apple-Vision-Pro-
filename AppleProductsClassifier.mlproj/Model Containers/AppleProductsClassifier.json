@@ -1,0 +1,709 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-02-18T23:00:12Z",
+        "event" : "trainingDataAdded",
+        "id" : "4F7B9D75-C916-4FB8-B0B1-2C251D7CFAF6",
+        "subtitle" : "Image Identifier Data",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-02-18T23:00:21Z",
+        "event" : "trainingStarted",
+        "id" : "C11FEA93-2876-4A9A-ADC7-C91B2ECBD045",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-02-18T22:59:42Z",
+        "event" : "experimentCreated",
+        "id" : "42223CA7-61DD-4C50-8748-A73402853599",
+        "subtitle" : "AppleProductsClassifier",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-02-18T23:00:22Z",
+        "event" : "trainingFinished",
+        "id" : "81147B58-DF13-4F81-8084-6DF71D1376E5",
+        "subtitle" : "Model converged at 12 iterations",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-02-18T22:59:42Z"
+  },
+  "createdDate" : "2026-02-18T22:59:42Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-02-18T23:01:48Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "none",
+        "createdDate" : "2026-02-18T23:00:22Z",
+        "dataResult" : {
+
+        },
+        "id" : "22670b71-55a9-4ced-ac38-cf5cd4973a95"
+      }
+    ],
+    "id" : "a0cb1d73-fbde-4b94-9ad2-7647a196d7b8",
+    "modifiedDate" : "2026-02-18T23:01:48Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-02-18T22:59:42Z",
+      "dataResult" : {
+        "createdDate" : "2026-02-18T22:59:42Z"
+      },
+      "id" : "a87dc717-80ae-456f-a0fe-3234ea627ad2"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-02-18T22:59:42Z",
+      "dataResult" : {
+        "classesCount" : 4,
+        "createdDate" : "2026-02-18T22:59:42Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/plateau__el50ekod2vo2_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery4-202410.jpeg",
+              [
+                "MacBook Pro 16"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0366.jpeg",
+              [
+                "iPhone 17 Pro"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery3-202410.jpeg",
+              [
+                "MacBook Pro 16"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0365.jpeg",
+              [
+                "iPhone 17 Pro"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_white__c7m8tqp08vee_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery6-202410.jpeg",
+              [
+                "MacBook Pro 16"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0363.jpeg",
+              [
+                "iMac"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_ultramarine__e8dohd6dsxqy_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_black__f61awmbjormi_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/loader__frdeabnt0eye_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery2-202410_GEO_US.jpeg",
+              [
+                "MacBook Pro 16"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0364.jpeg",
+              [
+                "iPhone 17 Pro"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/titanium__foo5831yt2my_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery5-202410.jpeg",
+              [
+                "MacBook Pro 16"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_gold__o4eertu61jue_large_2x.jpg",
+              [
+                "iPhone Air"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0362.jpeg",
+              [
+                "iMac"
+              ],
+              "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery1-202410.jpeg",
+              [
+                "MacBook Pro 16"
+              ]
+            ],
+            "labelStats" : {
+              "MacBook Pro 16" : 6,
+              "iMac" : 2,
+              "iPhone 17 Pro" : 3,
+              "iPhone Air" : 7
+            }
+          },
+          "issues" : [
+            {
+              "description" : "4 classes found, including iPhone Air, MacBook Pro 16, iPhone 17 Pro",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Less than 50 total images found - add more to improve model validation",
+              "severity" : "warning"
+            },
+            {
+              "description" : "Smallest class is \"iMac\" with 2 images",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"iPhone Air\" with 7 images",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 0,
+            "classCount" : 4,
+            "sampleCount" : 18
+          }
+        },
+        "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
+        "dataURL" : "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/",
+        "itemsCount" : 18
+      },
+      "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "MacBook Pro 16",
+              "count" : 6,
+              "expected" : "MacBook Pro 16"
+            },
+            {
+              "actual" : "iMac",
+              "count" : 2,
+              "expected" : "iMac"
+            },
+            {
+              "actual" : "iPhone 17 Pro",
+              "count" : 3,
+              "expected" : "iPhone 17 Pro"
+            },
+            {
+              "actual" : "iPhone Air",
+              "count" : 7,
+              "expected" : "iPhone Air"
+            }
+          ],
+          "statsByLabel" : {
+            "MacBook Pro 16" : {
+              "count" : 6,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "iMac" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "iPhone 17 Pro" : {
+              "count" : 3,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "iPhone Air" : {
+              "count" : 7,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "385ce973-8615-4698-a90c-c13e4c3f7302"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-02-18T22:59:42Z",
+      "dataResult" : {
+        "createdDate" : "2026-02-18T22:59:42Z"
+      },
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 0,
+          "confusionMatrix" : [
+
+          ],
+          "statsByLabel" : {
+
+          }
+        }
+      },
+      "id" : "2e1fd5ef-03bd-4902-a521-790338f9d463"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "14f31500-a951-4b93-b9ff-e574262fc327"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "614FB884-76D3-4BFA-ACF6-494A65B3E9CF",
+  "modelEntity" : {
+    "createdDate" : "2026-02-18T22:59:42Z",
+    "experimentID" : "614FB884-76D3-4BFA-ACF6-494A65B3E9CF",
+    "id" : "4AE19CB8-7FCA-481F-88B8-0AF9C331DCD8",
+    "modelURL" : "Models/AppleProductsClassifier.mlmodel/",
+    "modifiedDate" : "2026-02-18T22:59:42Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-02-18T23:01:48Z",
+  "preferredFilename" : "AppleProductsClassifier",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "AppleProductsClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-02-18T23:00:22Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 4,
+      "createdDate" : "2026-02-18T22:59:42Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/plateau__el50ekod2vo2_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery4-202410.jpeg",
+            [
+              "MacBook Pro 16"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0366.jpeg",
+            [
+              "iPhone 17 Pro"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery3-202410.jpeg",
+            [
+              "MacBook Pro 16"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0365.jpeg",
+            [
+              "iPhone 17 Pro"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_white__c7m8tqp08vee_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery6-202410.jpeg",
+            [
+              "MacBook Pro 16"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0363.jpeg",
+            [
+              "iMac"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_ultramarine__e8dohd6dsxqy_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_black__f61awmbjormi_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/loader__frdeabnt0eye_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery2-202410_GEO_US.jpeg",
+            [
+              "MacBook Pro 16"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%2017%20Pro/IMG_0364.jpeg",
+            [
+              "iPhone 17 Pro"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/titanium__foo5831yt2my_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery5-202410.jpeg",
+            [
+              "MacBook Pro 16"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iPhone%20Air/color_static_gold__o4eertu61jue_large_2x.jpg",
+            [
+              "iPhone Air"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/iMac/IMG_0362.jpeg",
+            [
+              "iMac"
+            ],
+            "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/MacBook%20Pro%2016/mbp16-spaceblack-gallery1-202410.jpeg",
+            [
+              "MacBook Pro 16"
+            ]
+          ],
+          "labelStats" : {
+            "MacBook Pro 16" : 6,
+            "iMac" : 2,
+            "iPhone 17 Pro" : 3,
+            "iPhone Air" : 7
+          }
+        },
+        "issues" : [
+          {
+            "description" : "4 classes found, including iPhone Air, MacBook Pro 16, iPhone 17 Pro",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Less than 50 total images found - add more to improve model validation",
+            "severity" : "warning"
+          },
+          {
+            "description" : "Smallest class is \"iMac\" with 2 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"iPhone Air\" with 7 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 0,
+          "classCount" : 4,
+          "sampleCount" : 18
+        }
+      },
+      "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
+      "dataURL" : "file:///Users/samuelgarvett/Documents/Developer/AR%20Repair-AVP/Image%20Identifier%20Data/",
+      "itemsCount" : 18
+    },
+    "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-02-18T23:00:22Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.026911020278930664,
+          "hasValidation" : false,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 0.3888888888888889,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.03594505786895752,
+          "hasValidation" : false,
+          "iterationCount" : 3,
+          "trainingAccuracy" : 0.3888888888888889,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.06168103218078613,
+          "hasValidation" : false,
+          "iterationCount" : 4,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.07259905338287354,
+          "hasValidation" : false,
+          "iterationCount" : 5,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.16456305980682373,
+          "hasValidation" : false,
+          "iterationCount" : 11,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 12,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.18646907806396484,
+          "hasValidation" : false,
+          "iterationCount" : 12,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 18,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000025.checkpoint",
+      "createdDate" : "2026-02-18T23:00:22Z",
+      "iteration" : 25
+    },
+    "resumableCheckpointURL" : "Checkpoints/614FB884-76D3-4BFA-ACF6-494A65B3E9CF.AppleProductsClassifier1.checkpoint",
+    "snapshottableCheckpointModelURL" : "Checkpoints/614FB884-76D3-4BFA-ACF6-494A65B3E9CF.AppleProductsClassifier1.checkpoint/training-000000025.checkpoint.model/checkpointModel.mlmodel",
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-02-18T23:00:22Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-02-18T23:00:21Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "MacBook Pro 16",
+            "count" : 6,
+            "expected" : "MacBook Pro 16"
+          },
+          {
+            "actual" : "iMac",
+            "count" : 2,
+            "expected" : "iMac"
+          },
+          {
+            "actual" : "iPhone 17 Pro",
+            "count" : 3,
+            "expected" : "iPhone 17 Pro"
+          },
+          {
+            "actual" : "iPhone Air",
+            "count" : 7,
+            "expected" : "iPhone Air"
+          }
+        ],
+        "statsByLabel" : {
+          "MacBook Pro 16" : {
+            "count" : 6,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "iMac" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "iPhone 17 Pro" : {
+            "count" : 3,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "iPhone Air" : {
+            "count" : 7,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 0,
+        "confusionMatrix" : [
+
+        ],
+        "statsByLabel" : {
+
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-02-18T22:59:42Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

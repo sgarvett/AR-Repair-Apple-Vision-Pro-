@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E446BE5F2F241FCB00C69ADE /* AppleProducts.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E446BE5E2F241FCB00C69ADE /* AppleProducts.mlmodel */; };
 		E4E41EEE2F204BD400AC4C41 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E4E41EED2F204BD400AC4C41 /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E446BE5E2F241FCB00C69ADE /* AppleProducts.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AppleProducts.mlmodel; sourceTree = "<group>"; };
 		E4E41EE82F204BD400AC4C41 /* AR Repair-AVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Repair-AVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E41EEC2F204BD400AC4C41 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +68,6 @@
 		E4E41EEB2F204BD400AC4C41 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				E446BE5E2F241FCB00C69ADE /* AppleProducts.mlmodel */,
 				E4E41EEC2F204BD400AC4C41 /* RealityKitContent */,
 			);
 			path = Packages;
@@ -151,7 +148,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E446BE5F2F241FCB00C69ADE /* AppleProducts.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

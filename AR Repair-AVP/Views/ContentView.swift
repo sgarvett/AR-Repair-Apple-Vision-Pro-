@@ -13,10 +13,12 @@ struct ContentView: View {
     @State private var showGuide = false
     
     var body: some View {
-        NavigationMenu()
-        MagnifyView()
+        VStack {
+            NavigationMenu()
+            ImageRecognizingView()
+            ToggleImmersiveSpaceButton()
+        }
     }
-        
 }
 
 #Preview(windowStyle: .automatic) {
