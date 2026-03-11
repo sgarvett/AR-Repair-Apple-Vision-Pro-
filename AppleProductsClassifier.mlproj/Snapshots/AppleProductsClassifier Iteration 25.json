@@ -23,21 +23,11 @@
     "trainingFinished",
     [
       {
-        "createdDate" : "2026-02-26T21:41:33Z",
+        "createdDate" : "2026-02-18T23:00:22Z",
         "event" : "trainingFinished",
-        "id" : "80447304-8026-453D-9914-966BF695D618",
+        "id" : "81147B58-DF13-4F81-8084-6DF71D1376E5",
         "subtitle" : "Model converged at 12 iterations",
         "title" : "Training Completed"
-      }
-    ],
-    "snapshotCreated",
-    [
-      {
-        "createdDate" : "2026-02-26T21:41:33Z",
-        "event" : "snapshotCreated",
-        "id" : "EC343E59-8514-44D5-A52A-F534A0EDFA8C",
-        "subtitle" : "Snapshot created at iteration 25",
-        "title" : "Snapshot Saved"
       }
     ],
     "trainingStarted",
@@ -49,51 +39,41 @@
         "subtitle" : "25 iterations",
         "title" : "Training Started"
       }
-    ],
-    "trainingExtended",
-    [
-      {
-        "createdDate" : "2026-02-26T21:41:33Z",
-        "event" : "trainingExtended",
-        "id" : "AE86A12B-9FC8-4F40-86A5-9B0C8467970B",
-        "subtitle" : "20 more iterations",
-        "title" : "Training Extended"
-      }
     ]
   ],
   "contentDataResult" : {
     "createdDate" : "2026-02-18T22:59:42Z"
   },
-  "createdDate" : "2026-02-18T22:59:42Z",
+  "createdDate" : "2026-02-26T21:41:33Z",
   "evaluationContainerEntity" : {
-    "createdDate" : "2026-02-26T21:41:34Z",
+    "createdDate" : "2026-02-26T21:42:16Z",
     "evaluationEntities" : [
       {
         "analysedDataType" : "none",
-        "createdDate" : "2026-02-18T23:00:22Z",
+        "createdDate" : "2026-02-26T21:42:16Z",
         "dataResult" : {
-          "createdDate" : "2026-02-20T21:49:50Z"
+
         },
-        "id" : "22670b71-55a9-4ced-ac38-cf5cd4973a95"
+        "id" : "d60e54af-f0f6-42de-8f06-7f490dd1f1f4"
       }
     ],
-    "id" : "a0cb1d73-fbde-4b94-9ad2-7647a196d7b8",
-    "modifiedDate" : "2026-02-26T21:41:34Z",
+    "id" : "dc79216a-ffd2-4213-b28b-bc93478d8c9a",
+    "modifiedDate" : "2026-02-26T21:42:16Z",
     "previewType" : "imageClassifier",
     "testingEvaluationEntity" : {
       "analysedDataType" : "none",
-      "createdDate" : "2026-02-18T22:59:42Z",
+      "createdDate" : "2026-02-26T21:41:33Z",
       "dataResult" : {
-        "createdDate" : "2026-02-18T22:59:42Z"
+        "createdDate" : "2026-02-26T21:41:33Z"
       },
-      "id" : "a87dc717-80ae-456f-a0fe-3234ea627ad2"
+      "id" : "9d66bc2f-a9a8-40f7-b0fa-98541645bc0f"
     },
     "trainingEvaluationEntity" : {
       "analysedDataType" : "none",
-      "createdDate" : "2026-02-18T22:59:42Z",
+      "createdDate" : "2026-02-26T21:41:33Z",
       "dataResult" : {
         "classesCount" : 4,
-        "createdDate" : "2026-02-18T22:59:42Z",
+        "createdDate" : "2026-02-26T21:41:33Z",
         "dataAnalysis" : {
           "classifierAnalysis" : {
             "details" : [
@@ -211,91 +191,15 @@
         "itemsCount" : 18
       },
       "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
-      "evaluationResult" : {
-        "imageClassifier" : {
-          "accuracy" : 1,
-          "confusionMatrix" : [
-            {
-              "actual" : "MacBook Pro 16",
-              "count" : 6,
-              "expected" : "MacBook Pro 16"
-            },
-            {
-              "actual" : "iMac",
-              "count" : 2,
-              "expected" : "iMac"
-            },
-            {
-              "actual" : "iPhone 17 Pro",
-              "count" : 3,
-              "expected" : "iPhone 17 Pro"
-            },
-            {
-              "actual" : "iPhone Air",
-              "count" : 7,
-              "expected" : "iPhone Air"
-            }
-          ],
-          "statsByLabel" : {
-            "MacBook Pro 16" : {
-              "count" : 6,
-              "precisionRecall" : {
-                "success" : {
-                  "precision" : 1,
-                  "recall" : 1
-                }
-              }
-            },
-            "iMac" : {
-              "count" : 2,
-              "precisionRecall" : {
-                "success" : {
-                  "precision" : 1,
-                  "recall" : 1
-                }
-              }
-            },
-            "iPhone 17 Pro" : {
-              "count" : 3,
-              "precisionRecall" : {
-                "success" : {
-                  "precision" : 1,
-                  "recall" : 1
-                }
-              }
-            },
-            "iPhone Air" : {
-              "count" : 7,
-              "precisionRecall" : {
-                "success" : {
-                  "precision" : 1,
-                  "recall" : 1
-                }
-              }
-            }
-          }
-        }
-      },
-      "id" : "385ce973-8615-4698-a90c-c13e4c3f7302"
+      "id" : "feb6aa8f-626a-49de-95e6-ec5d9fd63fcf"
     },
     "validationEvaluationEntity" : {
       "analysedDataType" : "auto",
-      "createdDate" : "2026-02-18T22:59:42Z",
+      "createdDate" : "2026-02-26T21:41:33Z",
       "dataResult" : {
-        "createdDate" : "2026-02-18T22:59:42Z"
+        "createdDate" : "2026-02-26T21:41:33Z"
       },
-      "evaluationResult" : {
-        "imageClassifier" : {
-          "accuracy" : 0,
-          "confusionMatrix" : [
-
-          ],
-          "statsByLabel" : {
-
-          }
-        }
-      },
-      "id" : "2e1fd5ef-03bd-4902-a521-790338f9d463"
+      "id" : "27ebb0d0-ed32-4270-85c1-48f3af48c0aa"
     }
   },
   "evaluationEntity" : {
@@ -303,21 +207,21 @@
     "dataResult" : {
 
     },
-    "id" : "4f3ed036-110f-4792-ba4d-181fd88fea94"
+    "id" : "e9dbea28-7ab1-430b-806e-768de71fb601"
   },
   "evaluationState" : "uninitialized",
-  "id" : "614FB884-76D3-4BFA-ACF6-494A65B3E9CF",
+  "id" : "04753DD0-A4B1-4521-A0A5-5A6AE0C26235",
   "modelEntity" : {
-    "createdDate" : "2026-02-18T22:59:42Z",
+    "createdDate" : "2026-02-26T21:41:33Z",
     "experimentID" : "614FB884-76D3-4BFA-ACF6-494A65B3E9CF",
-    "id" : "4AE19CB8-7FCA-481F-88B8-0AF9C331DCD8",
-    "modelURL" : "Models/AppleProductsClassifier.mlmodel",
-    "modifiedDate" : "2026-02-18T22:59:42Z",
+    "id" : "B57D3186-7805-40CD-AAD5-ECA3FA7B5D64",
+    "modelURL" : "Snapshots/AppleProductsClassifier%20Iteration%2025.mlmodel",
+    "modifiedDate" : "2026-02-26T21:41:33Z",
     "title" : "",
     "version" : "1.0"
   },
-  "modifiedDate" : "2026-02-26T21:41:34Z",
-  "preferredFilename" : "AppleProductsClassifier",
+  "modifiedDate" : "2026-02-26T21:42:16Z",
+  "preferredFilename" : "AppleProductsClassifier Iteration 25",
   "settingEntity" : {
     "algorithmType" : "maxEnt",
     "augmentations" : [
@@ -334,19 +238,18 @@
 
     ],
     "harVideoAugmentations" : 0,
-    "iterationCount" : 45,
+    "iterationCount" : 25,
     "seedType" : "default",
     "styleTransferAlgorithmType" : "image",
     "taskType" : "imageClassifier",
     "transferLearningEmbeddingType" : "dynamic"
   },
   "snapshotRole" : {
-    "withSnapshots" : [
-      "04753DD0-A4B1-4521-A0A5-5A6AE0C26235"
-    ]
+    "snapshotIteration" : 25,
+    "snapshotParent" : "614FB884-76D3-4BFA-ACF6-494A65B3E9CF"
   },
   "state" : "trained",
-  "title" : "AppleProductsClassifier 1",
+  "title" : "Iteration 25",
   "trainingEntity" : {
     "analysedDataType" : "datasource",
     "checkpointMetrics" : {
@@ -356,18 +259,11 @@
         "metrics" : {
 
         }
-      },
-      "50" : {
-        "createdDate" : "2026-02-26T21:41:33Z",
-        "iteration" : 50,
-        "metrics" : {
-
-        }
       }
     },
     "dataResult" : {
       "classesCount" : 4,
-      "createdDate" : "2026-02-18T22:59:42Z",
+      "createdDate" : "2026-02-26T21:41:33Z",
       "dataAnalysis" : {
         "classifierAnalysis" : {
           "details" : [
@@ -486,7 +382,7 @@
     },
     "dataSourceID" : "17509847-51EB-49A1-BB64-C91ECF426E8E",
     "featureExtractionCheckpointMayBeAvailable" : false,
-    "finishTime" : "2026-02-26T21:41:33Z",
+    "finishTime" : "2026-02-18T23:00:22Z",
     "progress" : [
       {
         "count" : 0,
@@ -508,7 +404,7 @@
         "count" : 2,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.027891993522644043,
+          "elapsedTime" : 0.026911020278930664,
           "hasValidation" : false,
           "iterationCount" : 2,
           "trainingAccuracy" : 0.3888888888888889,
@@ -523,7 +419,7 @@
         "count" : 3,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.036527037620544434,
+          "elapsedTime" : 0.03594505786895752,
           "hasValidation" : false,
           "iterationCount" : 3,
           "trainingAccuracy" : 0.3888888888888889,
@@ -538,7 +434,7 @@
         "count" : 4,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.06161010265350342,
+          "elapsedTime" : 0.06168103218078613,
           "hasValidation" : false,
           "iterationCount" : 4,
           "trainingAccuracy" : 1,
@@ -553,7 +449,7 @@
         "count" : 5,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.07234299182891846,
+          "elapsedTime" : 0.07259905338287354,
           "hasValidation" : false,
           "iterationCount" : 5,
           "trainingAccuracy" : 1,
@@ -576,7 +472,7 @@
         "count" : 11,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.16429007053375244,
+          "elapsedTime" : 0.16456305980682373,
           "hasValidation" : false,
           "iterationCount" : 11,
           "trainingAccuracy" : 1,
@@ -591,7 +487,7 @@
         "count" : 12,
         "currentRowIndex" : 0,
         "icTrainingColumnHeader" : {
-          "elapsedTime" : 0.1859910488128662,
+          "elapsedTime" : 0.18646907806396484,
           "hasValidation" : false,
           "iterationCount" : 12,
           "trainingAccuracy" : 1,
@@ -623,33 +519,23 @@
         "currentRowIndex" : 0,
         "isLast" : false,
         "percentComplete" : 0,
-        "tableDone" : false,
-        "tableIndex" : 1
-      },
-      {
-        "count" : 50,
-        "currentRowIndex" : 0,
-        "isLast" : false,
-        "percentComplete" : 0,
-        "tableDone" : false,
+        "tableDone" : true,
         "tableIndex" : 1
       }
     ],
     "resumableCheckpoint" : {
-      "checkpointURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000050.checkpoint",
-      "createdDate" : "2026-02-26T21:41:33Z",
-      "iteration" : 50
+      "checkpointURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000025.checkpoint",
+      "createdDate" : "2026-02-18T23:00:22Z",
+      "iteration" : 25
     },
-    "resumableCheckpointURL" : "Checkpoints/614FB884-76D3-4BFA-ACF6-494A65B3E9CF.AppleProductsClassifier.checkpoint",
-    "snapshottableCheckpointModelURL" : "Checkpoints/614FB884-76D3-4BFA-ACF6-494A65B3E9CF.AppleProductsClassifier.checkpoint/training-000000050.checkpoint.model/checkpointModel.mlmodel",
     "snapshottableCheckpoints" : {
-      "50" : {
-        "createdDate" : "2026-02-26T21:41:33Z",
-        "iteration" : 50,
-        "modelURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000050.checkpoint.model/checkpointModel.mlmodel"
+      "25" : {
+        "createdDate" : "2026-02-18T23:00:22Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/samuelgarvett/Library/Caches/com.apple.dt.createml/projects/086BEC93-7D14-460B-9FD1-7D28546B33FBa5a176ec05cbfe75ed9b609bb18f6619a136ab7a/sessions/checkpoint.sessions/614FB884-76D3-4BFA-ACF6-494A65B3E9CF/training-000000025.checkpoint.model/checkpointModel.mlmodel"
       }
     },
-    "startTime" : "2026-02-26T21:41:33Z",
+    "startTime" : "2026-02-18T23:00:21Z",
     "trainingAccuracy" : 1,
     "trainingResults" : {
       "imageClassifier" : {
@@ -732,7 +618,7 @@
   "validationEntity" : {
     "analysedDataType" : "auto",
     "dataResult" : {
-      "createdDate" : "2026-02-18T22:59:42Z"
+      "createdDate" : "2026-02-26T21:41:33Z"
     },
     "splitOptions" : {
       "strategy" : {

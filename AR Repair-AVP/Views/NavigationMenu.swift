@@ -8,29 +8,40 @@
 import SwiftUI
 
 struct NavigationMenu: View {
-    @State private var showGuide = false
-    @State private var showSubMenu = false
+    @State private var showMacComponentSubView = false
+    @State private var showiPhoneComponentSubView = false
     
     var body: some View {
         HStack(spacing: 16) {
-            Button(action: { showGuide = true }) {
+            
+            Button(action: { withAnimation {showMacComponentSubView.toggle()} }) {
                 Label("Macbook", systemImage: "macbook")
             }
-            .buttonStyle(.borderedProminent)
+            .buttonStyle(.bordered)
+            .popover(isPresented: $showMacComponentSubView,
+                     attachmentAnchor: .point(.top),
+                     arrowEdge: .top) {
+                ComponentSubMenu(device: .macBook14)
+                    .frame(minWidth: 350)
+                    .fixedSize(horizontal: true, vertical: true)
+                    .padding()
+                    .glassBackgroundEffect()
+            }
+            
             
             Button(action: { print("iMac button pressed")}) {
                 Label("iMac", systemImage: "desktopcomputer")
             }
             .buttonStyle(.bordered)
             
-            Button(action: { withAnimation {showSubMenu.toggle() } }) {
+            Button(action: { withAnimation {showiPhoneComponentSubView.toggle()} }) {
                 Label("iPhone", systemImage: "iphone")
             }
             .buttonStyle(.bordered)
-            .popover(isPresented: $showSubMenu,
-                     attachmentAnchor: .point(.bottom),
+            .popover(isPresented: $showiPhoneComponentSubView,
+                     attachmentAnchor: .point(.top),
                      arrowEdge: .bottom) {
-                ComponentSubMenu()
+                ComponentSubMenu(device: .iPhone)
                     .frame(minWidth: 350)
                     .fixedSize(horizontal: true, vertical: true)
                     .padding()
@@ -40,9 +51,6 @@ struct NavigationMenu: View {
                       
         }
         .padding()
-        .sheet(isPresented: $showGuide) {
-            StepByStepGuide()
-        }
     }
 }
 

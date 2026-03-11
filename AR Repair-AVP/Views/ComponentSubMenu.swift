@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ComponentSubMenu: View {
+    enum DeviceType {
+        case macBook14
+        case iMac
+        case iPhone
+    }
+
+    let device: DeviceType
+    
     
     // Repair types according to device being repaired
     let macbook14Components = [
@@ -35,46 +43,87 @@ struct ComponentSubMenu: View {
     
     let iPhoneComponents = ["Security Screws",
                             "Display",
+                            "Battery Screws",
                             "Battery Cowling",
     ]
                           
-    
-    
+    private var components: [String] {
+        switch device {
+        case .macBook14:
+            return macbook14Components
+        case .iMac:
+            return iMacComponents
+        case .iPhone:
+            return iPhoneComponents
+        }
+    }
     
     var body: some View {
-        
-        VStack {
+        NavigationStack {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 8) {
-                    ForEach(macbook14Components, id: \.self) { component in
-                        Button {
-                            // Handle tap for `component`
-                            print("Tapped \(component)")
-                        } label: {
-                            HStack {
-                                Text(component)
-                                    .foregroundStyle(.primary)
-                                    .lineLimit(1)
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                                    .foregroundStyle(.secondary)
+                    ForEach(components, id: \.self) { component in
+                        if component == "Top Case" {
+                            Button {
+                                
+                            } label: {
+                                HStack {
+                                    Text(component)
+                                        .foregroundStyle(.primary)
+                                        .lineLimit(1)
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                        .foregroundStyle(.secondary)
+                                }
+                                .padding(.vertical, 8)
+                                .padding(.horizontal, 12)
+                                .contentShape(Rectangle())
                             }
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 12)
-                            .contentShape(Rectangle())
+                            .buttonStyle(.plain)
+                            .background(.thinMaterial)
+                            .clipShape(RoundedRectangle(cornerRadius: 8))
+                        } else {
+                            NavigationLink {
+                                Text("\(component) details coming soon")
+                                    .padding()
+                                    .navigationTitle(component)
+                            } label: {
+                                HStack {
+                                    Text(component)
+                                        .foregroundStyle(.primary)
+                                        .lineLimit(1)
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                        .foregroundStyle(.secondary)
+                                }
+                                .padding(.vertical, 8)
+                                .padding(.horizontal, 12)
+                                .contentShape(Rectangle())
+                            }
+                            .buttonStyle(.plain)
+                            .background(.thinMaterial)
+                            .clipShape(RoundedRectangle(cornerRadius: 8))
                         }
-                        .buttonStyle(.plain)
-                        .background(.thinMaterial)
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
                     }
                 }
                 .padding(.vertical, 8)
+                .padding(.horizontal, 12)
             }
+            .navigationTitle(title(for: device))
+        
+        }
+    }
+    
+    private func title(for device: DeviceType) -> String {
+        switch device {
+        case .macBook14: return "MacBook Pro 14\u{201D} Components"
+        case .iMac: return "iMac Components"
+        case .iPhone: return "iPhone Components"
         }
     }
 }
         
 
 #Preview {
-    ComponentSubMenu()
+    ComponentSubMenu(device: .macBook14)
 }

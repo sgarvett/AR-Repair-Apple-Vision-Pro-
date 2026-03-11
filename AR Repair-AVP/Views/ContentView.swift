@@ -17,6 +17,7 @@ struct ContentView: View {
             NavigationMenu()
             ImageRecognizingView()
             ToggleImmersiveSpaceButton()
+            
         }
     }
 }
