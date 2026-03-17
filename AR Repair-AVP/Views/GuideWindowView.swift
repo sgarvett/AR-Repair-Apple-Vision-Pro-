@@ -14,10 +14,20 @@ struct Step {
 }
 
 struct StepByStepGuide: View {
+    enum GuideType { case mac, iphone }
+    
     @Environment(\.dismiss) private var dismiss
     @State private var currentStep = 0
+    let guideType: GuideType
     
-    let steps = [
+    var activeSteps: [Step] {
+        switch guideType {
+        case .mac: return macRepairSteps
+        case .iphone: return iphoneRepairSteps
+        }
+    }
+    
+    let macRepairSteps = [
         Step(title: "tools needed to replace top case", description: "Let's get started with setup. These are the tools you'll need.", imageName: "wrench.and.screwdriver"),
         Step(title: "remove bottom case screws", description: "You will need (tool name) to remove screws.", imageName: ""),
         Step(title: "remove battery management unit flex cable", description: "Gently fold back the trackpad flex cable.", imageName: ""),
@@ -27,6 +37,14 @@ struct StepByStepGuide: View {
         Step(title: "remove antenna screws", description: "Remove the nine 1IPR screws then lift antenna", imageName: ""),
         Step(title: "remove logic board", description: "Romove speakers screws and cowling", imageName: ""),
         Step(title: "cowling removal", description: "Use 3IP bit to remove eight cowlings", imageName: ""),
+    ]
+    
+    let iphoneRepairSteps = [
+        Step(title: "tools needed to replace logic board", description: "getting started with setup. These are the tools you'll need", imageName: ""),
+        Step(title: "remove security screws", description: "careful to use the right bit to remove screws to prevent stripping", imageName: ""),
+        Step(title: "remove battery screws", description: "discard after removing screws", imageName: ""),
+        Step(title: "disconnect battery", description: "once screws are removed proceed to discconected battery using nylon stick", imageName: "Blackstick")
+                             
     ]
     
     var body: some View {
@@ -47,7 +65,7 @@ struct StepByStepGuide: View {
                 
                 
                 // Current step content
-                if let imageName = steps[currentStep].imageName {
+                if let imageName = activeSteps[currentStep].imageName {
                     Image(systemName: imageName)
                         .font(.system(size: 60))
                         .foregroundColor(.yellow)
@@ -55,28 +73,30 @@ struct StepByStepGuide: View {
                 
                 
                 
-                Text(steps[currentStep].title)
+                Text(activeSteps[currentStep].title)
                     .font(.title.smallCaps())
                     .bold()
                 
-                // inserts image grid only for the first step
+                // inserts image grid only for the first step and only for mac guide
                 if currentStep == 0 {
-                    ImageGridView(assetNames: [
-                        "SuctionCup",
-                        "Blackstick",
-                        "BatteryCover",
-                        "CalibrationWeights",
-                        "ESDSafeTweezers",
-                        "ESDWristStrapAndCable",
-                        "Pentalobe",
-                        "T3",
-                        "T4",
-                        "T5",
-                        "T6",
-                        "T8",
-                    ])
+                    if guideType == .mac {
+                        ImageGridView(assetNames: [
+                            "SuctionCup",
+                            "Blackstick",
+                            "BatteryCover",
+                            "CalibrationWeights",
+                            "ESDSafeTweezers",
+                            "ESDWristStrapAndCable",
+                            "Pentalobe",
+                            "T3",
+                            "T4",
+                            "T5",
+                            "T6",
+                            "T8",
+                        ])
+                    }
                 } else {
-                    if let imageName = steps[currentStep].imageName, !imageName.isEmpty {
+                    if let imageName = activeSteps[currentStep].imageName, !imageName.isEmpty {
                         Image(imageName) // asset image for other steps
                             .resizable()
                             .scaledToFit()
@@ -85,12 +105,12 @@ struct StepByStepGuide: View {
                     }
                 }
                 
-                Text(steps[currentStep].description)
+                Text(activeSteps[currentStep].description)
                     .multilineTextAlignment(.center)
                     .padding()
                 
                 // Progress bar
-                ProgressView(value: Double(currentStep + 1), total: Double(steps.count))
+                ProgressView(value: Double(currentStep + 1), total: Double(activeSteps.count))
                     .progressViewStyle(.linear)
                     .tint(.yellow)
                     .padding()
@@ -107,8 +127,8 @@ struct StepByStepGuide: View {
                     .buttonStyle(.bordered)
                     .keyboardShortcut(.leftArrow, modifiers: [])
                     
-                    Button(currentStep < steps.count - 1 ? "Next" : "Finish") {
-                        if currentStep < steps.count - 1 {
+                    Button(currentStep < activeSteps.count - 1 ? "Next" : "Finish") {
+                        if currentStep < activeSteps.count - 1 {
                             currentStep += 1
                         } else {
                             // Handle completion
@@ -118,7 +138,9 @@ struct StepByStepGuide: View {
                     .keyboardShortcut(.rightArrow, modifiers: [])
                 }
                 .padding()
+                
             }
+            
             .padding()
             .animation(.easeInOut, value: currentStep) // Smooth transitions
         }
@@ -129,6 +151,6 @@ struct StepByStepGuide: View {
 
 
 #Preview {
-    StepByStepGuide()
+    StepByStepGuide(guideType: .mac)
 }
 

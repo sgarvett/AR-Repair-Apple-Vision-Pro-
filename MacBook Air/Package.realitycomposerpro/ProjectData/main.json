@@ -1,9 +1,11 @@
 {
   "pathsToIds" : {
-    "\/MacBook%20Air\/Sources\/MacBook%20Air\/MacBook%20Air.rkassets\/Scene.usda" : "FA0D0C61-7050-453A-8A6C-6852FBCA78EE"
+    "\/MacBook%20Air\/Sources\/MacBook%20Air\/MacBook%20Air.rkassets\/Scene.usda" : "FA0D0C61-7050-453A-8A6C-6852FBCA78EE",
+    "MacBook Air\/Sources\/MacBook Air\/MacBook Air.rkassets\/Scene.usda" : "221FEE92-20D4-4926-BAE0-41EC160CA787"
   },
   "projectID" : 7999778447935086932,
   "uuidToIntID" : {
+    "221FEE92-20D4-4926-BAE0-41EC160CA787" : -8707419983745547055,
     "FA0D0C61-7050-453A-8A6C-6852FBCA78EE" : -2456892189268969342
   }
 }

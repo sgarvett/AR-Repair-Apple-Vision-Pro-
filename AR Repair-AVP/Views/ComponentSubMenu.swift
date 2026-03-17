@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ComponentSubMenu: View {
+    @Environment(\.openWindow) private var openWindow
+
     enum DeviceType {
         case macBook14
         case iMac
@@ -66,6 +68,8 @@ struct ComponentSubMenu: View {
                         if component == "Top Case" {
                             Button {
                                 
+                                // On visionOS, open a brand new window for the Top Case flow.
+                                openWindow(id: "StepByStepGuide")
                             } label: {
                                 HStack {
                                     Text(component)
@@ -127,3 +131,4 @@ struct ComponentSubMenu: View {
 #Preview {
     ComponentSubMenu(device: .macBook14)
 }
+

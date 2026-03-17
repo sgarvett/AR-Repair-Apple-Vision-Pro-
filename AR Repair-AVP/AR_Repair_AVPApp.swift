@@ -14,10 +14,15 @@ struct AR_Repair_AVPApp: App {
 
     var body: some Scene {
         WindowGroup {
+           
             ContentView()
                 .environment(appModel)
         }
-        //automatically resizes the main window to fit all content and allows user to pull corner to readjust as well
+        .windowResizability(.contentSize)
+        
+        WindowGroup(id: "StepByStepGuide") {
+            StepByStepGuide(guideType: .mac)
+        }
         .windowResizability(.contentSize)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
@@ -25,6 +30,7 @@ struct AR_Repair_AVPApp: App {
                 .environment(appModel)
                 .onAppear {
                     appModel.immersiveSpaceState = .open
+                    
                 }
                 .onDisappear {
                     appModel.immersiveSpaceState = .closed
