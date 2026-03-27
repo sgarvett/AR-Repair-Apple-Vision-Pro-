@@ -5,37 +5,7 @@ import Combine
 #if os(visionOS)
 
 // MARK: - Corner Bracket Shape
-//struct CornerBracketShape: Shape {
-//    let cornerLength: CGFloat
-//    
-//    func path(in rect: CGRect) -> Path {
-//        var path = Path()
-//        let inset: CGFloat = 1.5
-//        let r = rect.insetBy(dx: inset, dy: inset)
-//        
-//        // Top-left
-//        path.move(to: CGPoint(x: r.minX, y: r.minY + cornerLength))
-//        path.addLine(to: CGPoint(x: r.minX, y: r.minY))
-//        path.addLine(to: CGPoint(x: r.minX + cornerLength, y: r.minY))
-//        
-//        // Top-right
-//        path.move(to: CGPoint(x: r.maxX - cornerLength, y: r.minY))
-//        path.addLine(to: CGPoint(x: r.maxX, y: r.minY))
-//        path.addLine(to: CGPoint(x: r.maxX, y: r.minY + cornerLength))
-//        
-//        // Bottom-right
-//        path.move(to: CGPoint(x: r.maxX, y: r.maxY - cornerLength))
-//        path.addLine(to: CGPoint(x: r.maxX, y: r.maxY))
-//        path.addLine(to: CGPoint(x: r.maxX - cornerLength, y: r.maxY))
-//        
-//        // Bottom-left
-//        path.move(to: CGPoint(x: r.minX + cornerLength, y: r.maxY))
-//        path.addLine(to: CGPoint(x: r.minX, y: r.maxY))
-//        path.addLine(to: CGPoint(x: r.minX, y: r.maxY - cornerLength))
-//        
-//        return path
-//    }
-//}
+
 
 // MARK: - Highlight Box View
 struct HighlightBoxView: View {
@@ -57,13 +27,7 @@ struct HighlightBoxView: View {
                     lineWidth: lineWidth,
                     dash: [6, 3]
                 ))
-//                .foregroundStyle(color.opacity(isPulsing ? 0.5 : 1.0))
-//            CornerBracketShape(cornerLength: cornerLength)
-//                .stroke(style: StrokeStyle(
-//                    lineWidth: lineWidth + 1.5,
-//                    lineCap: .round
-//                ))
-//                .foregroundStyle(.white.opacity(isPulsing ? 0.6 : 1.0))
+
             if let label {
                 Text(label)
                     .font(.system(size: 12, weight: .semibold))
@@ -158,7 +122,7 @@ struct ObjectHighlightView: View {
 // MARK: - Manual Usage (No Camera, great for previews/testing)
 struct ManualHighlightDemoView: View {
     let highlights: [(CGRect, String, Color)] = [
-        (CGRect(x: 80, y: 360, width: 160, height: 80), "Component", .yellow),
+        (CGRect(x: 80, y: 400, width: 200, height: 80), "Component", .yellow),
     ]
     
     var body: some View {

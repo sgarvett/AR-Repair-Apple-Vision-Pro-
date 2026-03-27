@@ -10,7 +10,8 @@ import RealityKit
 import RealityKitContent
 
 struct ImmersiveView: View {
-
+    @Environment(AppModel.self) private var appModel
+    
     var body: some View {
         RealityView { content in
             // Add the initial RealityKit content
@@ -22,10 +23,13 @@ struct ImmersiveView: View {
                 // Put skybox here.  See example in World project available at
                 // https://developer.apple.com/
             }
+            content.add(appModel.rootEntity)
         }
         
         .frame(width: 200, height: 200)
-        
+        .task {
+            await appModel.startTracking(in: appModel.rootEntity)
+        }
     }
 }
 

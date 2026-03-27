@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "RepairIconBack.png",
       "idiom" : "vision",
       "scale" : "2x"
     }
